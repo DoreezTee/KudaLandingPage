@@ -1,0 +1,242 @@
+*{
+    font-family: Avenir LT Std;
+    list-style: none;
+}
+
+
+body{
+    color: #634388;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #40196D;
+}
+
+p{
+    color: #1F1F1F;
+  }
+   
+ a{
+    color:#7a40c2;
+}
+
+footer{
+    opacity: 0.4;
+    padding: 5% 11%;
+}
+
+
+section{
+    padding: 7%;
+    
+}
+
+/* headings */
+.first-section-heading{
+    font-size: muli,  sans-serif;
+    font-weight: 900;
+    text-align:left;
+    color: #40196D;
+    font-size: 3rem;
+    line-height: 1.1;
+}
+
+/* download buttons */
+.download-btn{
+  background-color: black;
+  padding: 0.3rem;
+  justify-content: center;
+
+}
+
+ 
+.nav-item{
+    padding: 1rem;
+    margin-top: 0;
+    font-size: 15px;
+    font-family: muli,  sans-serif;
+    font-weight: bold;
+  
+}
+
+nav{
+    background-color: white;
+}
+
+
+.nav-link dropdown-toggle{
+    
+	
+    box-shadow: 2px;
+    background: 	linear-gradient(to bottom right, rgba(244, 244, 244, 0.932), rgba(249, 246, 246, 0.936));
+}
+
+
+.logo {
+	width:	80px;
+	height:	80px;
+    margin-left: 20px;
+    margin-bottom: 9px;
+	float:	left;
+
+}
+
+
+.kuda-btn{
+    color: antiquewhite;
+    background-color: #41276D;
+    transition: 1s;
+}
+
+
+
+
+.dropbtn{
+    
+    position: relative;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.topphrase {
+	font-family: Avenir LT Std;
+	font-size:		40px;
+	color:			rgb(255, 255, 255);
+	padding-top:	35px;
+	padding-right:	40px;
+	float: 			right;
+}
+
+.nav-item {
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight:600;
+    color: #40196D;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color:#ebe6f0;
+}
+  
+  .nav-item:hover .dropdown-menu {
+    display:inherit;
+}
+
+
+/* images */
+.other-img{
+    width: 80%;
+}
+
+.rotate-img{
+    transform: rotate(60deg);
+    width: 70%;
+    position: relative;
+    left:5%;
+}
+
+
+.lead{
+    font-size: 1.1rem;
+
+}
+/* .dropdown-menu */
+
+.dropdown-item{
+    padding: 15px;
+    margin: 10px;
+  }
+
+  /* font awesome */
+  .fa-solid{
+    margin-right: 8px;
+  }
+
+  /* font awesome fircle */
+  .circle-icon{
+        background: #ebebf1;
+        padding:7px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+  
+
+
+
+.word{
+    text-align: center;
+    opacity: 0.4;
+}
+
+
+/* kuda card section */
+
+.card{
+    background-color: white;
+    border-style: none;
+    text-align: left;
+    line-height: 2;
+}
+
+.card-section{
+    background-color: #EFF1FF;
+    padding: 50px;
+    margin: 10px;
+   }
+
+.card-heading{
+   padding: 2rem;
+}
+
+.button-containers{
+   margin-left: 20px;
+}
+.globe{
+    margin-left: 3rem;
+}
+
+ 
+ .kuda-btn{
+    margin-left: 3rem;
+} 
+
+@media (max-width: 1020px){
+
+    section{
+      text-align: center;
+    }
+
+    .first-section-heading{
+        text-align: center;
+    }
+
+    .rotate-img{
+      position: static;
+      transform: rotate(60deg);
+      padding: 6rem;
+      width: 100%;
+    }
+    .card-img-top{
+        width: 100px;
+        
+    }
+   }
